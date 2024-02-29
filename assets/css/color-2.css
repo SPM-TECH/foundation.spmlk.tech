@@ -68,30 +68,30 @@ a {
 }
 
 .ex_shop_header .header-lower .shop-category > a{
-    background-color: #0077BE;
+    background-color: #ECB22D;
 }
 
 .ex_shop_header .header-lower .shop-category > ul>li>a:hover{
-    color: #0077BE;
+    color: #ECB22D;
 }
 
 .ex_shop_header .header-lower .shop-category > ul>li> ul>li>a:hover{
-    color: #0077BE;
+    color: #ECB22D;
 }
 
 .ex_shop_header .main-menu .navigation > li > ul > li > a:hover, 
 .ex_shop_header .main-menu .navigation > li > .megamenu li > a:hover{
-    color: #0077BE;
+    color: #ECB22D;
 }
 
 .ex_shop_header .main-menu .navigation > li > .megamenu li > a:before{
-    background-color: #0077BE;
+    background-color: #ECB22D;
 }
 
 .ex_shop_header .main-menu .navigation > li > ul > li > ul > li > a:hover{
-    color: #0077BE;
+    color: #ECB22D;
 }
 
 .ex_shop_header .header-top ul.contact-info li a:hover{
-    color: #0077BE;
+    color: #ECB22D;
 }
