@@ -377,21 +377,21 @@
 }
 
 .slider-six .banner-carousel .owl-nav button.owl-next:hover:before{
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .slider-six .banner-carousel .owl-nav button.owl-next:hover:after{
-  border-right: 2px solid #f38836;
-  border-top: 2px solid #f38836;
+  border-right: 2px solid #ECB22D;
+  border-top: 2px solid #ECB22D;
 }
 
 .slider-six .banner-carousel .owl-nav button.owl-prev:hover:before{
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .slider-six .banner-carousel .owl-nav button.owl-prev:hover:after{
-  border-left: 2px solid #f38836;
-  border-bottom: 2px solid #f38836;
+  border-left: 2px solid #ECB22D;
+  border-bottom: 2px solid #ECB22D;
 }
 
 .slider-seven .banner-carousel .owl-nav button.owl-next:hover:before{
@@ -1287,7 +1287,7 @@
   position:relative;
   width:100%;
   height:6px;
-  background:#f2f2f2;
+  background:#aaa5a5;
   border-radius:5px;
 }
 
@@ -15771,7 +15771,7 @@ body.out .mouse-pointer {
 }
 
 .mouse-pointer.style-six{
-  background: #e93421;
+  background: #ECB22D;
 }
 
 .mouse-pointer.style-six.large {
@@ -15780,7 +15780,7 @@ body.out .mouse-pointer {
 }
 
 .mouse-pointer.style-seven{
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .mouse-pointer.style-seven.large {
@@ -16241,14 +16241,14 @@ body.out .mouse-pointer {
 
 .header-style-seven .theme-btn{
   border-radius: 0px;
-  background: #e93421;
+  background: #ECB22D;
   padding: 15px 40px;
   font-weight: 700;
   font-family: 'Oxygen', sans-serif;
 }
 
 .header-style-seven .theme-btn:hover{
-  color: #e93421 !important;
+  color: #ECB22D !important;
 }
 
 .header-style-seven .theme-btn:before{
@@ -16269,7 +16269,7 @@ body.out .mouse-pointer {
 
 .slider-five .theme-btn-two{
   border-radius: 0px;
-  background: #e93421;
+  background: #ECB22D;
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
@@ -16292,7 +16292,7 @@ body.out .mouse-pointer {
 
 .service-seven .theme-btn-two{
   border-radius: 0px;
-  background: #e93421;
+  background: #ECB22D;
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
@@ -16353,14 +16353,14 @@ body.out .mouse-pointer {
 
 .appointment-one.home-7 .theme-btn{
   border-radius: 0px;
-  background: #e93421;
+  background: #ECB22D;
   padding: 15px 40px;
   font-weight: 700;
   font-family: 'Oxygen', sans-serif;
 }
 
 .appointment-one.home-7 .theme-btn:hover{
-  color: #e93421 !important;
+  color: #ECB22D !important;
 }
 
 .appointment-one.home-7 .theme-btn:before{
@@ -16381,13 +16381,13 @@ body.out .mouse-pointer {
 
 .footer-seven .theme-btn{
   border-radius: 0px;
-  background: #e93421;
+  background: #ECB22D;
   font-weight: 700;
   font-family: 'Oxygen', sans-serif;
 }
 
 .footer-seven .theme-btn:hover{
-  color: #e93421 !important;
+  color: #ECB22D !important;
 }
 
 .footer-seven .theme-btn:before{
@@ -16415,7 +16415,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .header-style-eight .theme-btn:before{
@@ -16479,12 +16479,12 @@ body.out .mouse-pointer {
   padding: 10px 33px;
   font-family: 'Poppins', sans-serif;
   border: 2px solid #fbdbc2;
-  color: #f38836 !important;
+  color: #ECB22D !important;
 }
 
 .feature-six .feature-block-six .theme-btn:hover {
-  border-color: #f38836;
-  color: #f38836 !important;
+  border-color: #ECB22D;
+  color: #ECB22D !important;
 }
 
 .feature-six .feature-block-six .theme-btn:before{
@@ -16513,7 +16513,7 @@ body.out .mouse-pointer {
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   padding: 12px 43px;
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .service-eight .theme-btn:before{
@@ -16537,7 +16537,7 @@ body.out .mouse-pointer {
 }
 
 .project-three.home-8 .project-block-three .inner-box .view-btn a:hover{
-  color: #f38836;
+  color: #ECB22D;
 }
 
 
@@ -16581,7 +16581,7 @@ body.out .mouse-pointer {
   font-size: 15px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .appointment-two.home-8 .theme-btn:before{
@@ -16982,7 +16982,7 @@ body.out .mouse-pointer {
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   padding: 12px 32px;
-  background: #f38836;
+  background: #ECB22D;
 }
 
 .cta-five .theme-btn:before{
@@ -17006,7 +17006,7 @@ body.out .mouse-pointer {
 }
 
 .cta-five .theme-btn:hover{
-  color: #f38836 !important;
+  color: #ECB22D !important;
 }
 
 .header-style-16 .theme-btn{
