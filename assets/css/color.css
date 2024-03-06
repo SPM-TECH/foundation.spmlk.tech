@@ -112,19 +112,19 @@
 }
 
 .pricing-block-one .pricing-table .table-header h6{
-	background: -webkit-linear-gradient(0deg, #c335da, #fc2643 25%);
+	background: -webkit-linear-gradient(0deg, #ebc672, #ECB22D 25%);
 }
 
 .pricing-block-one .pricing-table .table-content .feature-list li:before{
-	background: -webkit-linear-gradient(0deg, #c335da, #fc2643 100%);
+	background: -webkit-linear-gradient(0deg, #ebc672, #ECB22D 100%);
 }
 
 .theme-btn.btn-three:before{
-	background: -webkit-linear-gradient(0deg, #c335da, #fc2643 100%);
+	background: -webkit-linear-gradient(0deg, #ebc672, #ECB22D 100%);
 }
 
 .news-block-one .inner-box .image{
-	background: -webkit-linear-gradient(0deg, #c335da, #fc2643 100%);
+	background: -webkit-linear-gradient(0deg, #ebc672, #ECB22D 100%);
 }
 
 .news-block-one .inner-box .post-info li a:hover{
@@ -132,11 +132,11 @@
 }
 
 .news-block-one .inner-box .lower-content h4 a:hover{
-  color: #e6c987;
+  color: #ECB22D;
 }
 
 .footer-top .social-links li a:before{
-	background: -webkit-linear-gradient(45deg, #c335da, #fc2643 100%);
+	background: -webkit-linear-gradient(45deg, #ebc672, #ECB22D 100%);
 }
 
 .footer-widget-section .about-widget .subscribe-form .form-group input:focus{
