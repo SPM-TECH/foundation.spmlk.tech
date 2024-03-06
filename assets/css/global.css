@@ -656,7 +656,7 @@ img {
 /** theme-btn-five **/
 
 .theme-btn-five{
-  background: #612ade;
+  background: #ECB22D;
   padding: 17px 40px;
 }
 
@@ -686,13 +686,13 @@ img {
 
 .theme-btn-six:hover{
   color: #fff !important;
-  border-color: #612ade;
+  border-color: #ECB22D;
 }
 
 .theme-btn-six:before{
   position: absolute;
   content: '';
-  background: #612ade;
+  background: #ECB22D;
   width: 0%;
   height: 100%;
   left: 0px;

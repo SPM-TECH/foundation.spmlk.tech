@@ -3545,7 +3545,7 @@
 
 .feature-three .feature-block:last-child .icon-box{
   background: #d6d5ff;
-  color: #612ade;
+  color: #ECB22D;
 }
 
 .feature-three .feature-block .icon-box:before{
@@ -3660,7 +3660,7 @@
 
 .service-block:last-child .service-block-four .inner-box .icon-box{
   background: #e2e2ff;
-  color: #612ade;
+  color: #ECB22D;
 }
 
 .service-block-four .inner-box .icon-box:before{
@@ -3694,7 +3694,7 @@
 }
 
 .service-block:last-child .service-block-four .inner-box .icon-box:before{
-  background: #612ade;
+  background: #ECB22D;
 }
 
 .service-block-four .inner-box:hover .icon-box:before{
@@ -6714,7 +6714,7 @@ div[class^="bubble-"] {
 /** appointment-two **/
 
 .appointment-two{
-  padding-top: 285px;
+  padding-top: 130px;
 }
 
 .appointment-two .pattern-layer{
@@ -16138,7 +16138,7 @@ body.out .mouse-pointer {
 }
 
 .pricing-two .pricing-block-one.active-block .theme-btn.theme-btn-five:hover{
-  color: #612ade !important;
+  color: #ECB22D !important;
 }
 
 .pricing-two .pricing-block-one.active-block .theme-btn.theme-btn-five:before{
@@ -16547,12 +16547,12 @@ body.out .mouse-pointer {
   font-weight: 500;
   padding: 11px 32px;
   font-family: 'Poppins', sans-serif;
-  border: 2px solid #b7d5e7;
+  border: 2px solid #ECB22D;
   color: #ECB22D !important;
 }
 
 .news-eight .theme-btn:hover {
-  border-color: #b7d5e7;
+  border-color: #ECB22D;
   color: #ECB22D !important;
 }
 
