@@ -57,6 +57,19 @@
             });
         });
     </script>
+    <script>
+        // Update progress bar and raised amount
+        function updateProgress(percentage, raisedAmount) {
+            // Update progress bar width
+            $("#fundraisingProgress .progress-bar").css("width", percentage + "%");
+            
+            // Update raised amount
+            $("#raisedAmount").text("Rs." + raisedAmount);
+        }
+    
+        // Call the function with new values (e.g., 30% and Rs.30,000)
+        updateProgress(30, 30000);
+    </script>
 </head>
 
 <body>
@@ -134,7 +147,7 @@
                     <ul>
                         <li> No: 57 Lloyd's Ave, Batticaloa 30000, Sri Lanka.</li>
                         <li><a href="tel:+94652223443">+94652223443 | +94740164545</a></li>
-                        <li><a href="mailto: hms@spmlk.tech"> hms@spmlk.tech</a></li>
+                        <li><a href="mailto: foundation@spmlk.tech"> foundation@spmlk.tech</a></li>
                     </ul>
                 </div>
                 <div class="social-links">
@@ -292,21 +305,25 @@
                                 <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
                                     <h4 class="d_block fs_20 lh_30 mb_15 font_family_pt g_color">Children Education</h4>
                                     <p class="d_block mb_20">We are on a mission to provide a bright future for underprivileged children by ensuring they have the essential tools for education.</p>
-                                    <div class="progress mt-4">
-                                        <div class="progress-bar w_30" role="progressbar" aria-valuenow="30"
-                                            aria-valuemin="0" aria-valuemax="30"></div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center my-2">
-                                        <p class="mb-0">
-                                            <strong>Raised:</strong>
-                                            Rs.30,000
-                                        </p>
-
-                                        <p class="ms-auto mb-0 ml_120">
-                                            <strong>Goal:</strong>
-                                            Rs.100,000
-                                        </p>
+                                    <div class="progress-inner p_relative d_block">
+                                        <div class="progress-box p_relative d_block mb_35">   
+                                            <div class="bar">
+                                                <div class="bar-inner count-bar" data-percent="30%"></div>
+                                                <div class="count-text p_absolute r_0 b_10 fs_16">30%</div>
+                                            </div>
+                                            <div class="d-flex align-items-center my-2">
+                                                <p class="mb-0">
+                                                    <strong>Raised:</strong>
+                                                    Rs.30,000
+                                                </p>
+        
+                                                <p class="ms-auto mb-0 ml_120">
+                                                    <strong>Goal:</strong>
+                                                    Rs.100,000
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                     <div class="btn-box centred mt_25">
                                         <a href="blog-details.html" class="theme-btn theme-btn-six">Donate</a>
@@ -389,9 +406,9 @@
                                 </div>
                                 <div class="lower-content p_relative d_block pt_25">
                                     <h4 class="d_block fs_20 lh_30 mb_10  font_family_poppins g_color">You May Save The Life of A Child</h4>
-                                    <p class="fs_16 d_block font_family_poppins mb_25"></p>
-                                    <div class="btn-box">
-                                        <a href="blogs/blog1.html" class="theme-btn btn-11">Learn More</a>
+                                    <p class="fs_16 d_block font_family_poppins mb_25"> Explore our blog for impactful narratives that inspire action and change lives. Your click could be the key to saving a child's life.</p>
+                                    <div class="btn-box pb_15">
+                                        <a href="Blog/blog1.html" class="theme-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -408,9 +425,10 @@
                                 </div>
                                 <div class="lower-content p_relative d_block pt_25">
                                     <h4 class="d_block fs_20 lh_30 mb_10  font_family_poppins g_color">Children That Needs Care</h4>
-                                    <p class="fs_16 d_block font_family_poppins mb_25"></p>
-                                    <div class="btn-box">
-                                        <a href="blogs/blog2.html" class="theme-btn">Learn More</a>
+                                        <p class="fs_16 d_block font_family_poppins mb_25"> 
+                                            Discover our blog for compelling narratives that ignite action and transform lives. Your click could be the key to saving a child's life.</p>
+                                    <div class="btn-box pb_15">
+                                        <a href="Blog/blog2.html" class="theme-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -443,62 +461,114 @@
             </div>
         </section>
         <!-- blog  -->
-        <!-- appointment-two -->
-        <section class="appointment-two contact-four  home-8 p_relative pt_20 pb_30" id="contact"
-            style="background-color: #f7f6f4;">
+         <!-- contactinfo-one -->
+         <section class="contactinfo-one p_relative pt_130 centred" id="contact" style="background-color: #f7f6f4;">
+            <div class="bg-color p_absolute l_0 t_0 r_0 bg-color-1"></div>
             <div class="auto-container">
                 <div class="sec-title p_relative d_block mb_30 text-center">
                     <h5 class="sub-title p_relative d_iblock fs_15 fw_medium g_color">Contact</h5><br /></br>
                     <h2 class="d_block fs_40 lh_50 fw_bold">Get In Touch With Us</h2>
                 </div>
                 <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 info-column">
-                        <div class="info-inner">
-
-                            <ul class="info-list clearfix">
-                                <li class="p_relative d_block pl_100 pb_18 mb_25">
-                                    <div
-                                        class="icon-box p_absolute l_0 t_0 d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
-                                        <div class="icon p_relative d_iblock"><i class="icon-180"></i></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Address</h4>
-                                    <p class="font_family_poppins"> No: 57 Lloyd's Ave, Batticaloa 30000, Sri Lanka.</p>
-                                </li>
-                                <li class="p_relative d_block pl_100 pb_18 mb_25">
-                                    <div
-                                        class="icon-box p_absolute l_0 t_0 d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
-                                        <div class="icon p_relative d_iblock"><i class="icon-181"></i></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Email</h4>
-                                    <p class="font_family_poppins"><a href="mailto: hms@spmlk.tech"> hms@spmlk.tech</a>
-                                    </p>
-                                </li>
-                                <li class="p_relative d_block pl_100 pb_18">
-                                    <div
-                                        class="icon-box p_absolute l_0 t_0 d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
-                                        <div class="icon p_relative d_iblock"><i class="icon-182"></i></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
-                                    <p class="font_family_poppins"><a href="tel:+94652223443">+94652223443</a></p>
-                                    <p class="font_family_poppins"><a href="tel:+94740164545
-                                ">+94740164545
-                                        </a></p>
-                                </li>
-                            </ul>
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-column">
+                        <div class="info-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pt_40 pr_40 pb_35 pl_40">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
+                                    <div class="icon p_relative d_iblock"><i class="icon-180"></i></div>
+                                    <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
+                                </div>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
+                                <p class="font_family_poppins"> No: 57 Lloyd's Ave, Batticaloa 30000, Sri Lanka.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 map-column">
-                        <div class="map-inner p_relative d_block">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.815711823976!2d81.7093487!3d7.7148833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2578ca272c34c6a7!2sEMD%20Labs!5e0!3m2!1sen!2slk!4v1673260077571!5m2!1sen!2slk"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-column">
+                        <div class="info-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pt_40 pr_40 pb_55 pl_40">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
+                                    <div class="icon p_relative d_iblock"><i class="icon-181"></i></div>
+                                    <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-134.png" alt=""></div>
+                                </div>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_10">Company Email</h4>
+                                <p class="font_family_poppins"><a href="mailto: foundation@spmlk.tech"> foundation@spmlk.tech</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 info-column">
+                        <div class="info-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pt_40 pr_40 pb_35 pl_40">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_45 z_1 mb_25 tran_5">
+                                    <div class="icon p_relative d_iblock"><i class="icon-182"></i></div>
+                                    <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
+                                </div>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
+                                <p class="font_family_poppins"><a href="tel:+94652223443">+94652223443</a></p>
+                                <p class="font_family_poppins"><a href="tel:+94740164545">+94740164545</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- appointment-two end -->
+        <!-- contactinfo-one end -->
+
+
+        <!-- contact-three end -->
+        <section class="contact-three p_relative sec-pad" style="background-color: #f7f6f4;">
+            <!-- <div class="shape">
+                <div class="shape-1 p_absolute l_90" style="background-image: url(assets/images/shape/shape-208.png);"></div>
+                <div class="shape-2 p_absolute r_130 b_0" style="background-image: url(assets/images/shape/shape-209.png);"></div>
+            </div> -->
+            <div class="auto-container">
+                <div class="row align-items-center clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 map-column">
+                        <div class="col-lg-6 col-md-6 col-sm-12 map-column">
+                            <div class="map-inner p_relative d_block">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.815711823976!2d81.7093487!3d7.7148833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2578ca272c34c6a7!2sEMD%20Labs!5e0!3m2!1sen!2slk!4v1673260077571!5m2!1sen!2slk"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                        <div class="content-box p_relative d_block pl_50">
+                            <div class="text p_relative d_block mb_30">
+                                <h3 class="d_block fs_30 lh_40 fw_bold mb_15">Send a Message</h3>
+                                <p class="font_family_poppins"></br></p>
+                            </div>
+                            <div class="form-inner p_relative ml_5 mr_5">
+                                <form method="post" action="sendemail.php" id="contact-form"> 
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <input type="email" name="email" placeholder="Email Address" required="">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                            <input type="text" name="phone" required="" placeholder="Phone Number">
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                            <input type="text" name="subject" required="" placeholder="Subject">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                            <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">Send Message <i class="icon-4"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-three end -->
     <!-- footer-six -->
     <footer class="footer-six p_relative">
         <div class="pattern-layer">
@@ -576,7 +646,7 @@
                                     <li><a href="tel:+94740164545
                                 ">+94740164545
                                         </a></li>
-                                    <li><a href="mailto: hms@spmlk.tech">hms@spmlk.tech</a></li>
+                                    <li><a href="mailto: foundation@spmlk.tech">foundation@spmlk.tech</a></li>
                                 </ul>
                             </div>
                         </div>

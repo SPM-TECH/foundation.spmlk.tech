@@ -367,13 +367,13 @@
 }
 
 .slider-four .banner-carousel .owl-nav button.owl-next:hover:after{
-  border-right: 2px solid #f1592a;
-  border-top: 2px solid #f1592a;
+  border-right: 2px solid #ECB22D;
+  border-top: 2px solid #ECB22D;
 }
 
 .slider-four .banner-carousel .owl-nav button.owl-prev:hover:after{
-  border-left: 2px solid #f1592a;
-  border-bottom: 2px solid #f1592a;
+  border-left: 2px solid #ECB22D;
+  border-bottom: 2px solid #ECB22D;
 }
 
 .slider-six .banner-carousel .owl-nav button.owl-next:hover:before{
@@ -14354,16 +14354,16 @@ div[class^="bubble-"] {
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one .pricing-table .theme-btn span:after{
-  color: #f1592a;
+  color: #ECB22D;
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one .pricing-table .theme-btn:before{
-  background: #f1592a;
+  background: #ECB22D;
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one .pricing-table .theme-btn:hover:after{
-  border-right: 2px solid #f1592a !important;
-  border-top: 2px solid #f1592a !important;
+  border-right: 2px solid #ECB22D !important;
+  border-top: 2px solid #ECB22D !important;
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one.active-block .pricing-table .table-header h6{
@@ -15762,7 +15762,7 @@ body.out .mouse-pointer {
 }
 
 .mouse-pointer.style-five{
-  background: #f1592a;
+  background: #ECB22D;
 }
 
 .mouse-pointer.style-five.large {
@@ -16218,7 +16218,7 @@ body.out .mouse-pointer {
 }
 
 .cta-four .theme-btn:hover{
-  color: #f1592a !important;
+  color: #ECB22D !important;
 }
 
 .news-six .theme-btn{
@@ -16232,11 +16232,11 @@ body.out .mouse-pointer {
 
 .news-six .theme-btn:hover{
   color: #fff !important;
-  border-color: #f1592a;
+  border-color: #ECB22D;
 }
 
 .news-six .theme-btn:before{
-  background: #f1592a;
+  background: #ECB22D;
 }
 
 .header-style-seven .theme-btn{
@@ -17049,17 +17049,17 @@ body.out .mouse-pointer {
 
 .testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-next:hover:before, 
 .testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-prev:hover:before{
-  background: #f1592a;
+  background: #ECB22D;
 }
 
 .testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-next:hover:after {
-  border-right: 2px solid #f1592a;
-  border-top: 2px solid #f1592a;
+  border-right: 2px solid #ECB22D;
+  border-top: 2px solid #ECB22D;
 }
 
 .testimonial-three.about-page-4 .nav-style-two .owl-nav button.owl-prev:hover:after {
-  border-left: 2px solid #f1592a;
-  border-bottom: 2px solid #f1592a;
+  border-left: 2px solid #ECB22D;
+  border-bottom: 2px solid #ECB22D;
 }
 
 .about-20.about-page-5 .feature-block-nine .inner-box:hover .icon-box {
@@ -17124,7 +17124,7 @@ body.out .mouse-pointer {
 }
 
 .experience-section.team-details-2 .theme-btn{
-  background: #f1592a;
+  background: #ECB22D;
   padding: 12px 32px;
   border-radius: 5px;
   font-size: 15px;
@@ -17140,7 +17140,7 @@ body.out .mouse-pointer {
 }
 
 .pricing-one.pricing-page-1 .pricing-block-one.active-block .pricing-table .theme-btn:hover{
-  color: #f1592a !important;
+  color: #ECB22D !important;
   border-color: #fff;
 }
 
